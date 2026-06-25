@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Định dạng để box hiển thị ảnh nhìn rõ hơn */
+        #image-display {
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="image-display">Hover over an image below to display here.</div>
+
+    <img src="leon.jpg.webp" 
+         alt="This is leon" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+    <script src="something.js"></script>
+</body>
+</html>
